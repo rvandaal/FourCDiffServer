@@ -1,11 +1,11 @@
 # FourCDiffServer
 Exercise project
 
+Open this readme in raw view
 1. Run the FourCDiffServer from within Visual Studio 2015. This will open up the browser.
 2. Open the tool Fiddler, go to the Composer tab, subtab Scratchpad and paste the following text (replace the portnumber by the right portnumber).
 
 ==========================================================
-
 PUT http://localhost:19089/v1/diff/1/Left HTTP/1.1
 User-Agent: Fiddler
 Host: localhost:19089
