@@ -17,7 +17,7 @@ namespace FourCDiffServer.IntegrationTests {
         // Using OWIN: https://docs.microsoft.com/en-us/aspnet/web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api
         // 
         // NOTE: i couldn't get this test to work. I left the code for you to see how far i came with it.
-        // When self-hosting (with OWIN) works, i could set a breakpoint in the GetDiffItemAsync method in the controller,
+        // Self-hosting (with OWIN) works, i could set a breakpoint in the GetDiffItemAsync method in the controller,
         // and it would hit the breakpoint but not connect to the database correctly. It would return an InternalServerError. 
         // This controller works with a FourCDiffServerContext that is connected to the live database. I don't know how to use a testdatabase. 
         // I updated the app.config and inserted the connection string for a testdatabase, but i'm not sure how and when this database
