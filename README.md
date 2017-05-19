@@ -1,5 +1,6 @@
 # FourCDiffServer
-Exercise project
+Exercise project.
+Two JSON input strings can be PUT on two different endpoints, and the diff of these input strings can be read at a third endpoint. The output will also be in JSON format.
 
 Open this readme in raw view
 1. Run the FourCDiffServer from within Visual Studio 2015. This will open up the browser.
