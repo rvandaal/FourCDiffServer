@@ -2,6 +2,8 @@
 Exercise project.
 Two JSON input strings can be PUT on two different endpoints, and the diff of these input strings can be read at a third endpoint. The output will also be in JSON format.
 
+NOTE: Due to a lack of time, nothing was done with versioning. So the v1 is hardcoded.
+
 Open this readme in raw view
 1. Run the FourCDiffServer from within Visual Studio 2015. This will open up the browser.
 2. Open the tool Fiddler, go to the Composer tab, subtab Scratchpad and paste the following text (replace the portnumber by the right portnumber).
